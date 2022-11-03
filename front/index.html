@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Hello !</title>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="monNav">
+           <img src="img/logo-white.svg">
+
+            <ul class="menuList">
+                <a href="#"> ABOUT US </a>
+                <a href="#"> PRODUCT </a>
+                <a href="#"> BLOG </a>
+                <a href="#"> CONTACT </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="main">
+            <h1> This is Oneday </h1>
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae reiciendis adipisci possimus eveniet numquam! Obcaecati tempora quod, debitis labore
+                laborum dolorem corrupti facere repellat illo quo iste voluptatem soluta iure.
+            </h4>
+            <a href="#" class="hvr-shutter-in-vertical">TELL ME MORE !</a>
+        </div>
+
+    <script>
+        function myFunction() {
+  var x = document.getElementById("monNav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+    </script>
+
+    
+</body>
+</html>
