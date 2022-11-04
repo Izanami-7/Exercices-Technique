@@ -87,7 +87,7 @@ a {
 }
 
 .main {
-    max-width: none;
+    max-width: none !important;
     margin: auto 5% !important;
 }
 
