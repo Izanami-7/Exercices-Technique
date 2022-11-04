@@ -74,6 +74,12 @@ a {
     border-radius: 15px;
 }
 
+@media screen and (max-width: 900px) {
+  .main {
+    max-width: 65% !important;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
 .nav {
